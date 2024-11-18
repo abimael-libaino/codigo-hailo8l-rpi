@@ -41,9 +41,6 @@ def test():
     cam.setGimbalRotation(0, -25)  # de -90 ate 25 graus.
     cam.disconnect()
 
-if __name__ == "__main__":
-    test()
-
 class user_app_callback_class(app_callback_class):
     def __init__(self):
         super().__init__()
